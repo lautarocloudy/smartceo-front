@@ -25,7 +25,8 @@ export const Rutas = () => {
                             <Route path="lista-persona" element={<ListadoUsuario />} />
                             <Route path="ver-usuario/:id" element={<VerUsuario />} />
                             <Route path="editar-usuario/:id" element={<EditarUsuario />} />
-
+                            <Route path="guardar-manual" element={<CrearManual />} />
+                            <Route path="ver-manual" element={< ListadoManual/>} />
 
                             
                             <Route path="salir" element={<Logout />} />

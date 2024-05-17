@@ -14,6 +14,13 @@ const Nav = () => {
               <li className="back"><NavLink to="/social/lista-persona">Ver  </NavLink></li>
             </ul>
           </li>
+          <li className="front">
+                Manuales
+                <ul className="ul-third">
+                  <li className="back"><NavLink to="/social/guardar-manual">Cargar</NavLink></li>
+                  <li className="back"><NavLink to="/social/ver-manual">Ver</NavLink></li>
+                </ul>
+              </li>
           </li>
 
           <li className="develop">
