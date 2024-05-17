@@ -2,9 +2,9 @@ import React, { useEffect } from 'react'
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 
-import useAuth from '.../../hooks/useAuth';
 import Global from '../../Helpers/Global';
 import { PetitionFetchToken } from '../../Helpers/Peticion';
+import useAuth from '../../hooks/useAuth';
 
 const ListadoUsuario = () => {
 
