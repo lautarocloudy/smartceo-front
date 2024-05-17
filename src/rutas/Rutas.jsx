@@ -4,6 +4,10 @@ import { PublicLayout } from "../Components/empresa1/publictLayout";
 import { Login } from "../Components/usuarios/login";
 import { Logout } from "../Components/usuarios/Logout";
 import { PrivateLayout } from "../Components/layout/PrivateLayout";
+import { CrearUsuario } from "../Components/usuariosSistema/CrearUsuario";
+import ListadoUsuario from "../Components/usuariosSistema/ListadoUsuario";
+import { VerUsuario } from "../Components/usuariosSistema/VerUsuario";
+import { EditarUsuario } from "../Components/usuariosSistema/EditarUsuario";
 
 export const Rutas = () => {
     return (
@@ -17,10 +21,10 @@ export const Rutas = () => {
                             <Route path='login' element={<Login />} />
                         </Route>
                         <Route path='/social' element={<PrivateLayout />}>
-                            {/* <Route index element={<ListaEmpresa />} />
-                            <Route path="lista-paginas-web" element={<ListaEmpresa />} />
-                            <Route path="lista/:busqueda" element={<ListaEmpresa />} />
-                            <Route path="cargar-paginas-web" element={<CrearEmpresa />} /> */}
+                        <Route path="cargar-persona" element={<CrearUsuario />} />
+                            <Route path="lista-persona" element={<ListadoUsuario />} />
+                            <Route path="ver-usuario/:id" element={<VerUsuario />} />
+                            <Route path="editar-usuario/:id" element={<EditarUsuario />} />
 
 
                             
