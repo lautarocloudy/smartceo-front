@@ -5,12 +5,15 @@ const Nav = () => {
     <>
       <nav className="custom-nav">
         <ul className="cont-ul">
+        <li className="develop">
+          Sistema
           <li className="front">
             Usuarios
             <ul className="ul-third">
               <li className="back"><NavLink to="/social/cargar-persona">Cargar  </NavLink></li>
               <li className="back"><NavLink to="/social/lista-persona">Ver  </NavLink></li>
             </ul>
+          </li>
           </li>
 
           <li className="develop">
