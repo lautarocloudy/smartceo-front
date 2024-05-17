@@ -8,6 +8,8 @@ import { CrearUsuario } from "../Components/usuariosSistema/CrearUsuario";
 import ListadoUsuario from "../Components/usuariosSistema/ListadoUsuario";
 import { VerUsuario } from "../Components/usuariosSistema/VerUsuario";
 import { EditarUsuario } from "../Components/usuariosSistema/EditarUsuario";
+import { CrearManual } from "../Components/Manual/Manual";
+import ListadoManual from "../Components/Manual/VerManual";
 
 export const Rutas = () => {
     return (
