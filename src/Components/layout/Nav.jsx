@@ -6,7 +6,7 @@ const Nav = () => {
       <nav className="custom-nav">
         <ul className="cont-ul">
         <li className="develop">
-          Sistema
+
           <li className="front">
             Usuarios
             <ul className="ul-third">
