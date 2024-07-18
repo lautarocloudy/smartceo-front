@@ -344,11 +344,11 @@ ol {
 }
 
 .img-login {
-  background-image: url("./assets/LOGIN-NORTHBAIRES-PARIS-01.jpg");
+  background-image: url("./assets/USUARIOS-Y-CLAVES-01.jpg");
   height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
-  background-position: center center;
+  /* background-position: center center; */
   background-attachment: fixed;
   background-size: cover;
 }
@@ -369,11 +369,11 @@ ol {
 
 .secction-login1 {
   margin: 0px auto;
-  width: 55%;
+  width: 50%;
   margin-top: -0, 5%;
   border-radius: 25px;
   color: #ffffff;
-  margin-left: 36%;
+  margin-left: 49%;
   background: black;
 }
 
