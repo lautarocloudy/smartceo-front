@@ -10,6 +10,10 @@ import { VerUsuario } from "../Components/usuariosSistema/VerUsuario";
 import { EditarUsuario } from "../Components/usuariosSistema/EditarUsuario";
 import { CrearManual } from "../Components/Manual/Manual";
 import ListadoManual from "../Components/Manual/VerManual";
+import { CrearComprobantes } from "../Components/comprobantes/crear";
+import VerComprobantes from "../Components/comprobantes/VerComprobantes";
+import { EditarComprobantes } from "../Components/comprobantes/EditarComprobantes";
+import BusquedaComprobante from "../Components/comprobantes/BusquedaComprobante";
 
 export const Rutas = () => {
     return (
@@ -29,7 +33,10 @@ export const Rutas = () => {
                             <Route path="editar-usuario/:id" element={<EditarUsuario />} />
                             <Route path="guardar-manual" element={<CrearManual />} />
                             <Route path="ver-manual" element={< ListadoManual/>} />
-
+                            <Route path="cargar-comprobantes" element={<CrearComprobantes />} />
+                            <Route path="ver-comprobantes" element={<VerComprobantes />} />
+                            <Route path="busqueda-comprobantes/:busqueda" element={<BusquedaComprobante />} />
+                            <Route path="editar-comprobantes/:id" element={<EditarComprobantes />} />
                             
                             <Route path="salir" element={<Logout />} />
                         </Route>

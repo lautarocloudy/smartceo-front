@@ -15,13 +15,10 @@ const Nav = () => {
             </li>
           </li>
           <li className="develop">
-
-
             <li className="front">
-              Manuales
+              Formularios
               <ul className="ul-third">
-                <li className="back"><NavLink to="/social/guardar-manual">Cargar</NavLink></li>
-                <li className="back"><NavLink to="/social/ver-manual">Ver</NavLink></li>
+              <li className="back"><NavLink to="/social/ver-comprobantes">Ver formularios </NavLink></li>
               </ul>
             </li>
           </li>
