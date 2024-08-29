@@ -27,6 +27,7 @@ export const Rutas = () => {
                             <Route path='login' element={<Login />} />
                         </Route>
                         <Route path='/social' element={<PrivateLayout />}>
+                        <Route index element={<VerComprobantes />} />
                         <Route path="cargar-persona" element={<CrearUsuario />} />
                             <Route path="lista-persona" element={<ListadoUsuario />} />
                             <Route path="ver-usuario/:id" element={<VerUsuario />} />

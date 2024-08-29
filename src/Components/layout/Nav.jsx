@@ -5,7 +5,7 @@ const Nav = () => {
     <>
       <nav className="custom-nav">
         <ul className="cont-ul">
-          <li className="develop">
+          {/* <li className="develop">
             <li className="front">
               Usuarios
               <ul className="ul-third">
@@ -13,7 +13,7 @@ const Nav = () => {
                 <li className="back"><NavLink to="/social/lista-persona">Ver  </NavLink></li>
               </ul>
             </li>
-          </li>
+          </li> */}
           <li className="develop">
             <li className="front">
               Formularios
