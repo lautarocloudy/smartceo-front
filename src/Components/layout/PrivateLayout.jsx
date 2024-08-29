@@ -2,7 +2,7 @@ import React from 'react'
 import { Navigate, Outlet } from 'react-router-dom'
 import useAuth from '../../hooks/useAuth';
 import Header from './Header';
-import Nav from './Nav';
+import NavPriv from './Nav';
 
 export const PrivateLayout = () => {
 
@@ -14,7 +14,7 @@ export const PrivateLayout = () => {
         return (
             <>
                 <Header />
-                <Nav />
+                <NavPriv />
 
                 <section className="layout__content">
 

@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom';
-import Global from '../../helpers/Global';
 import lupa from '../../assets/lupa.png'
 import useAuth from '../../hooks/useAuth';
 import { PetitionFetchToken } from '../../Helpers/Peticion';
+import Global from '../../Helpers/Global';
 
 
 const VerComprobantes = () => {

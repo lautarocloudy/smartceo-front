@@ -4,15 +4,10 @@ import { PublicLayout } from "../Components/empresa1/publictLayout";
 import { Login } from "../Components/usuarios/login";
 import { Logout } from "../Components/usuarios/Logout";
 import { PrivateLayout } from "../Components/layout/PrivateLayout";
-import { CrearUsuario } from "../Components/usuariosSistema/CrearUsuario";
-import ListadoUsuario from "../Components/usuariosSistema/ListadoUsuario";
-import { VerUsuario } from "../Components/usuariosSistema/VerUsuario";
-import { EditarUsuario } from "../Components/usuariosSistema/EditarUsuario";
-import { CrearManual } from "../Components/Manual/Manual";
-import ListadoManual from "../Components/Manual/VerManual";
+
 import { CrearComprobantes } from "../Components/comprobantes/crear";
-import VerComprobantes from "../Components/comprobantes/VerComprobantes";
 import { EditarComprobantes } from "../Components/comprobantes/EditarComprobantes";
+import VerComprobantes from "../Components/comprobantes/VerComprobantes";
 import BusquedaComprobante from "../Components/comprobantes/BusquedaComprobante";
 
 export const Rutas = () => {
@@ -28,12 +23,6 @@ export const Rutas = () => {
                         </Route>
                         <Route path='/social' element={<PrivateLayout />}>
                         <Route index element={<VerComprobantes />} />
-                        <Route path="cargar-persona" element={<CrearUsuario />} />
-                            <Route path="lista-persona" element={<ListadoUsuario />} />
-                            <Route path="ver-usuario/:id" element={<VerUsuario />} />
-                            <Route path="editar-usuario/:id" element={<EditarUsuario />} />
-                            <Route path="guardar-manual" element={<CrearManual />} />
-                            <Route path="ver-manual" element={< ListadoManual/>} />
                             <Route path="cargar-comprobantes" element={<CrearComprobantes />} />
                             <Route path="ver-comprobantes" element={<VerComprobantes />} />
                             <Route path="busqueda-comprobantes/:busqueda" element={<BusquedaComprobante />} />

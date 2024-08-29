@@ -2,8 +2,8 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useForm } from '../../hooks/useForm';
-import Global from '../../Helpers/Global';
 import { PetitionFetchToken } from '../../Helpers/Peticion';
+import Global from '../../Helpers/Global';
 
 export const EditarUsuario = () => {
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-const Nav = () => {
+const NavPriv = () => {
   return (
     <>
       <nav className="custom-nav">
@@ -34,4 +34,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default NavPriv;
