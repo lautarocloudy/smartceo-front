@@ -9,6 +9,7 @@ import { CrearComprobantes } from "../Components/comprobantes/crear";
 import { EditarComprobantes } from "../Components/comprobantes/EditarComprobantes";
 import VerComprobantes from "../Components/comprobantes/VerComprobantes";
 import BusquedaComprobante from "../Components/comprobantes/BusquedaComprobante";
+import { CrearClientes } from "../Components/cliente/CrearClientes";
 
 export const Rutas = () => {
     return (
@@ -27,6 +28,7 @@ export const Rutas = () => {
                             <Route path="ver-comprobantes" element={<VerComprobantes />} />
                             <Route path="busqueda-comprobantes/:busqueda" element={<BusquedaComprobante />} />
                             <Route path="editar-comprobantes/:id" element={<EditarComprobantes />} />
+                            <Route path="crear-cliente" element={<CrearClientes />} />
                             
                             <Route path="salir" element={<Logout />} />
                         </Route>

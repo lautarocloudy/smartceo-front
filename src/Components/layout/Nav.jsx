@@ -21,6 +21,12 @@ const NavPriv = () => {
               <li className="back"><NavLink to="/social/ver-comprobantes">Ver formularios </NavLink></li>
               </ul>
             </li>
+            <li className="front">
+              Clientes
+              <ul className="ul-third">
+              <li className="back"><NavLink to="/social/crear-cliente">crear </NavLink></li>
+              </ul>
+            </li>
           </li>
 
           <li className="develop">
