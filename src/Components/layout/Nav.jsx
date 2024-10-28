@@ -24,10 +24,10 @@ const NavPriv = () => {
           </li>
           <li className="develop">
           <li className="front">
-              Clientes
-              <ul className="ul-third">
-              <li className="back"><NavLink to="/social/crear-cliente">crear </NavLink></li>
-              </ul>
+              
+              {/* <ul className="ul-third"> */}
+              <li className="back"><NavLink to="/social/crear-cliente">Clientes </NavLink></li>
+              {/* </ul> */}
             </li>
             </li>
           <li className="develop">
