@@ -62,6 +62,86 @@ export const VerClientes = () => {
           <input type="text" name='cuit' disabled='disabled' defaultValue={clientes.cuit} />
         </div>
         <br />
+            <div className="form-group">
+              <label htmlFor='titulo'>Servicio de internet</label>
+              <input type="text" name='servicioInternet' defaultValue={clientes.servicioInternet} />
+            </div>
+            <br />
+            <div className="form-group">
+              <label htmlFor='titulo'>Servidor que tienen</label>
+              <input type="text" name='servidor' defaultValue={clientes.servidor} />
+            </div>
+            <br />
+            <div className="form-group">
+              <label htmlFor='titulo'>Ubicacion de la carpeta</label>
+              <input type="text" name='ubicacionCarpeta' defaultValue={clientes.ubicacionCarperta}/>
+            </div>
+            <br />
+            <div className="form-group">
+              <div className="row">
+                <div className="col-md-6">
+                  <label htmlFor='titulo'>usuario del servidor</label>
+                  <input className='inputProveedores' type="text" name='usuario1'defaultValue={clientes.usuario1} />
+                </div>
+                <div className="col-md-6">
+                  <label htmlFor='titulo'>contraseña del usuario del servidor</label>
+                  <input className='inputProveedores' type="text" name='pass1' defaultValue={clientes.pass1}/>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div className="form-group">
+              <div className="row">
+                <div className="col-md-6">
+                  <label htmlFor='titulo'>usuario del servidor</label>
+                  <input className='inputProveedores' type="text" name='usuario2' defaultValue={clientes.usuario2} />
+                </div>
+                <div className="col-md-6">
+                  <label htmlFor='titulo'>contraseña del usuario del servidor</label>
+                  <input className='inputProveedores' type="text" name='pass2' defaultValue={clientes.pass2} />
+                </div>
+              </div>
+            </div>
+            <br />
+            <div className="form-group">
+              <div className="row">
+                <div className="col-md-6">
+                  <label htmlFor='titulo'>usuario del servidor</label>
+                  <input className='inputProveedores' type="text" name='usuario3' defaultValue={clientes.usuario3} />
+                </div>
+                <div className="col-md-6">
+                  <label htmlFor='titulo'>contraseña del usuario del servidor</label>
+                  <input className='inputProveedores' type="text" name='pass3' defaultValue={clientes.pass3}/>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div className="form-group">
+              <div className="row">
+                <div className="col-md-6">
+                  <label htmlFor='titulo'>usuario del servidor</label>
+                  <input className='inputProveedores' type="text" name='usuario4' defaultValue={clientes.usuario4} />
+                </div>
+                <div className="col-md-6">
+                  <label htmlFor='titulo'>contraseña del usuario del servidor</label>
+                  <input className='inputProveedores' type="text" name='pass4' defaultValue={clientes.pass4}/>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div className="form-group">
+              <div className="row">
+                <div className="col-md-6">
+                  <label htmlFor='titulo'>usuario del servidor</label>
+                  <input className='inputProveedores' type="text" name='usuario5' defaultValue={clientes.usuario5} />
+                </div>
+                <div className="col-md-6">
+                  <label htmlFor='titulo'>contraseña del usuario del servidor</label>
+                  <input className='inputProveedores' type="text" name='pass5' defaultValue={clientes.pass5} />
+                </div>
+              </div>
+            </div>
+        <br />
         <div className="form-group">
           <div className="row">
             <div className="col-md-4 ">

@@ -135,6 +135,86 @@ export const CrearClientes = () => {
             </div>
             <br />
             <div className="form-group">
+              <label htmlFor='titulo'>Servicio de internet</label>
+              <input type="text" name='servicioInternet' onChange={cambiado} />
+            </div>
+            <br />
+            <div className="form-group">
+              <label htmlFor='titulo'>Servidor que tienen</label>
+              <input type="text" name='servidor' onChange={cambiado} />
+            </div>
+            <br />
+            <div className="form-group">
+              <label htmlFor='titulo'>Ubicacion de la carpeta</label>
+              <input type="text" name='ubicacionCarpeta' onChange={cambiado} />
+            </div>
+            <br />
+            <div className="form-group">
+              <div className="row">
+                <div className="col-md-6">
+                  <label htmlFor='titulo'>usuario del servidor</label>
+                  <input className='inputProveedores' type="text" name='usuario1' onChange={cambiado} />
+                </div>
+                <div className="col-md-6">
+                  <label htmlFor='titulo'>contraseña del usuario del servidor</label>
+                  <input className='inputProveedores' type="text" name='pass1' onChange={cambiado} />
+                </div>
+              </div>
+            </div>
+            <br />
+            <div className="form-group">
+              <div className="row">
+                <div className="col-md-6">
+                  <label htmlFor='titulo'>usuario del servidor</label>
+                  <input className='inputProveedores' type="text" name='usuario2' onChange={cambiado} />
+                </div>
+                <div className="col-md-6">
+                  <label htmlFor='titulo'>contraseña del usuario del servidor</label>
+                  <input className='inputProveedores' type="text" name='pass2' onChange={cambiado} />
+                </div>
+              </div>
+            </div>
+            <br />
+            <div className="form-group">
+              <div className="row">
+                <div className="col-md-6">
+                  <label htmlFor='titulo'>usuario del servidor</label>
+                  <input className='inputProveedores' type="text" name='usuario3' onChange={cambiado} />
+                </div>
+                <div className="col-md-6">
+                  <label htmlFor='titulo'>contraseña del usuario del servidor</label>
+                  <input className='inputProveedores' type="text" name='pass3' onChange={cambiado} />
+                </div>
+              </div>
+            </div>
+            <br />
+            <div className="form-group">
+              <div className="row">
+                <div className="col-md-6">
+                  <label htmlFor='titulo'>usuario del servidor</label>
+                  <input className='inputProveedores' type="text" name='usuario4' onChange={cambiado} />
+                </div>
+                <div className="col-md-6">
+                  <label htmlFor='titulo'>contraseña del usuario del servidor</label>
+                  <input className='inputProveedores' type="text" name='pass4' onChange={cambiado} />
+                </div>
+              </div>
+            </div>
+            <br />
+            <div className="form-group">
+              <div className="row">
+                <div className="col-md-6">
+                  <label htmlFor='titulo'>usuario del servidor</label>
+                  <input className='inputProveedores' type="text" name='usuario5' onChange={cambiado} />
+                </div>
+                <div className="col-md-6">
+                  <label htmlFor='titulo'>contraseña del usuario del servidor</label>
+                  <input className='inputProveedores' type="text" name='pass5' onChange={cambiado} />
+                </div>
+              </div>
+            </div>
+            <br />
+            <div className="form-group">
               <div className="row">
                 <div className="col-md-4 ">
                   <label htmlFor='titulo'>Organismo</label>
