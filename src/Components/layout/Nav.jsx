@@ -18,18 +18,18 @@ const NavPriv = () => {
             <li className="front">
               Formularios
               <ul className="ul-third">
-              <li className="back"><NavLink to="/social/ver-comprobantes">Ver formularios </NavLink></li>
+                <li className="back"><NavLink to="/social/ver-comprobantes">Ver formularios </NavLink></li>
               </ul>
             </li>
           </li>
           <li className="develop">
-          <li className="front">
-              
+            <li className="front">
+
               {/* <ul className="ul-third"> */}
               <li className="back"><NavLink to="/social/crear-cliente">Clientes </NavLink></li>
               {/* </ul> */}
             </li>
-            </li>
+          </li>
           <li className="develop">
             <NavLink aria-current="page" to="/social/salir">Salir</NavLink>
           </li>
