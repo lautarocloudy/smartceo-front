@@ -31,6 +31,15 @@ const NavPriv = () => {
             </li>
           </li>
           <li className="develop">
+            <li className="front">
+              Interacciones
+              <ul className="ul-third">
+              <li className="back"><NavLink to="/social/interaccion/crear">Crear </NavLink></li>
+                <li className="back"><NavLink to="/social/interaccion/ver">Ver </NavLink></li>
+              </ul>
+            </li>
+          </li>
+          <li className="develop">
             <NavLink aria-current="page" to="/social/salir">Salir</NavLink>
           </li>
         </ul>

@@ -12,6 +12,8 @@ import BusquedaComprobante from "../Components/comprobantes/BusquedaComprobante"
 import { CrearClientes } from "../Components/cliente/CrearClientes";
 import { EditarClientes } from "../Components/cliente/EditarClientes";
 import { VerClientes } from "../Components/cliente/VerClientes";
+import TablaInteracciones from "../Components/interacciones/VerInteracciones";
+import FormularioInteraccion from "../Components/interacciones/CrearInteraccion";
 
 export const Rutas = () => {
     return (
@@ -33,8 +35,8 @@ export const Rutas = () => {
                             <Route path="crear-cliente" element={<CrearClientes />} />
                             <Route path="editar-clientes/:id" element={<EditarClientes />} />
                             <Route path="ver-clientes/:id" element={<VerClientes />} />
-
-                            
+                            <Route path="interaccion/ver" element={<TablaInteracciones />} />
+                            <Route path="interaccion/crear" element={<FormularioInteraccion />} />
                             <Route path="salir" element={<Logout />} />
                         </Route>
                     
