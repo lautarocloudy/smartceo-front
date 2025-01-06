@@ -40,6 +40,14 @@ const NavPriv = () => {
             </li>
           </li>
           <li className="develop">
+            <li className="front">
+
+              {/* <ul className="ul-third"> */}
+              <li className="back"><NavLink to="https://menu-smart-ceo.netlify.app/">Menu SmartCeo </NavLink></li>
+              {/* </ul> */}
+            </li>
+          </li>
+          <li className="develop">
             <NavLink aria-current="page" to="/social/salir">Salir</NavLink>
           </li>
         </ul>
